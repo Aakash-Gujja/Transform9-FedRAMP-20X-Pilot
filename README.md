@@ -10,4 +10,28 @@ Transform9 provides AI voice agent solutions for healthcare practices, helping t
 ## CSP Approach
 Our approach can be summarized with the following steps:
 
-## 1. Lightw
+### 1. Lightwight Documentation
+      Document the implementation of KSIs using Paramify Cloud with the FedRAMP 20x validations set.
+### 2. Key Security Indicators and Validations
+      Gather and upload evidence into Paramify Cloud for each KSI validation, using automation where possible.
+
+### 3. Validate Evidence
+      Meet with 3PAO and have them review and validate evidence in Paramify Cloud.
+
+### 4. Automate Machine-readable Package
+      Generate and publish our machine-readable package using Paramify Cloud.
+
+### 5. 3PAO Review
+      3PAO reviews the package and adds attestation.
+
+### 6. Continuous Reporting Indication
+       Either on-demand or per an automated schedule, a new package will be generated with the most current evidence.
+
+### 7. Prototype for Continuous Reporting
+       It is anticipated that Paramify Cloud will allow for a shareable link that shows the KSI dashboard.
+
+### 8. CSP Rationale and Summary
+       Summary of and rationale for the approach used to generate the machine-readable file, and evidence generation methods.
+
+### 9. CSP Submission
+       Similar to the Continuous Reporting capability, the package will be available either with a viewable link or through the machine-readable package file with a friendly HTML viewer.
