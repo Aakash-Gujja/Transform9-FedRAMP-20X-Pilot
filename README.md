@@ -35,3 +35,12 @@ Summary of and rationale for the approach used to generate the machine-readable 
 
 ### 9. CSP Submission
 Similar to the Continuous Reporting capability, the package will be available either with a viewable link or through the machine-readable package file with a friendly HTML viewer.
+
+# Step-by-Step Details
+
+## Step 1 - Lightweigth Documentation
+
+Document the implementation of our KSIs using Paramify Cloud with the FedRAMP 20x validations set.
+
+
+<img width="1619" height="721" alt="Screenshot 2025-08-18 090444" src="https://github.com/user-attachments/assets/beb6c1f1-f349-49da-9a04-2be0c8a683da" />
