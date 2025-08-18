@@ -50,3 +50,11 @@ Document the implementation of our KSIs using Paramify Cloud with the FedRAMP 20
 Gather and upload evidence into Pramify Cloud for each KSI validation, using automation where possible. Instructions and commands for each evidence object are included to provide context to the evidence process and resutls.
 
 <img width="2530" height="895" alt="Screenshot 2025-08-18 090806" src="https://github.com/user-attachments/assets/4767be69-6025-496d-9ba8-310a6d6c1cdc" />
+
+## Step 3 - Validate Evidence
+
+Meet with 3PAO and have them review and validate evidence in Paramify Cloud. 3PAO can set Assurance steps/Results, Assurance Status, and leave notes or remarks
+
+(Images/VEvidence.png)
+
+(Images/VEvidence1.png)
