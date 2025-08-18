@@ -124,6 +124,54 @@ Package:
             outputResults: <output of script if automated>
             effectiveDate: <date of evidence>
 
+```
 
-### Below is a sample YAML file:
+### Below is the sample YAML file
 
+
+
+Transform9's complete machine-readable file is available publicly in this repository at
+
+
+## Step 5 - 3PAO Review
+
+3PAO reviews package and adds attestation. This is included at the Assessment level in the machine-readable-package
+
+```yaml
+
+  - Assessment:
+    digitalSignature: <SHA hash of assessment elements below>
+    assessorOrg: <Third Party Assessment Organization>
+    date: <date of assessment>
+    leadAssessor: <name of lead assessor>
+    recommendation: <Authorize | Do Not Authorize>
+    remarks: <assessment remarks>
+
+```
+
+## Step 6 - Continous Reporting Indication
+
+Either on-demand or per an automated schedule. a new package will be generated with most current evidence using paramify's DocRobot capability.
+
+## Step 7 - Prototype for Continuos Reporting
+
+It is anticipated that Paramify Cloud will allow for a shareable link that shows the KSI dashboard for Transform9. The view will look similar to following images.
+
+
+
+## Step 8 - CSP Rationale and Summary
+
+A summary of and rationale for the approach used to generate the machine-readable file, and evidence generation methods is provided with the machine-readable package file.
+
+## Step 9 - CSP Submission
+
+Similar to the Continuous Reporting capability, the package is available by a viewable link in Paramify or through the machine-readable package file with a friendly HTML viewer.
+
+Transform9's complete machine-readable file is available publicly in this GitHub repository at
+
+
+
+
+## Contact
+
+Reach out to aakash@transform9.com for questions, demos, or 3PAO access.
