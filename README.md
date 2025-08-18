@@ -44,3 +44,9 @@ Document the implementation of our KSIs using Paramify Cloud with the FedRAMP 20
 
 
 <img width="1619" height="721" alt="Screenshot 2025-08-18 090444" src="https://github.com/user-attachments/assets/beb6c1f1-f349-49da-9a04-2be0c8a683da" />
+
+## Step 2 - Key Security Indicators and Validations
+
+Gather and upload evidence into Pramify Cloud for each KSI validation, using automation where possible. Instructions and commands for each evidence object are included to provide context to the evidence process and resutls.
+
+<img width="2530" height="895" alt="Screenshot 2025-08-18 090806" src="https://github.com/user-attachments/assets/4767be69-6025-496d-9ba8-310a6d6c1cdc" />
