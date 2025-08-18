@@ -58,3 +58,14 @@ Meet with 3PAO and have them review and validate evidence in Paramify Cloud. 3PA
 ![Evidence1](Images/VEvidence.png)
 
 ![Evidence2](Images/VEvidence1.png)
+
+Transform9 is working with ControlCase as 3PAO for this FedRAMP 20X Assessment. The assesment report from ControlCase is available here: 
+
+## Step 4 - Automated Machine Readable Package
+
+Publish our machine-readable format package using Paramify Cloud’s DocRobot capabilities. Though YAML is our current proposal, Transform9 can support OSCAL, JSON, or other common formats.
+
+# Assessment File Structure
+
+The machin-redable assessment file is a YAML filw with the following structure (see machine-readable-package/schema.yaml)
+
