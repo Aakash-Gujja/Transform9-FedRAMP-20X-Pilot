@@ -55,6 +55,6 @@ Gather and upload evidence into Pramify Cloud for each KSI validation, using aut
 
 Meet with 3PAO and have them review and validate evidence in Paramify Cloud. 3PAO can set Assurance steps/Results, Assurance Status, and leave notes or remarks
 
-(Images/VEvidence.png)
+[![Transform9](Images/VEvidence.png)]
 
 (Images/VEvidence1.png)
