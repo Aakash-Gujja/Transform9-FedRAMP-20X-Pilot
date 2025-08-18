@@ -67,7 +67,7 @@ Publish our machine-readable format package using Paramify Cloud’s DocRobot ca
 
 # Assessment File Structure
 
-The machin-redable assessment file is a YAML filw with the following structure  (see [Assessment Schema](machine-readable-package/Schema.yaml))
+The machin-redable assessment file is a YAML file with the following structure  (see [Assessment Schema](machine-readable-package/Schema.yaml))
 
 ```yaml
 
@@ -123,3 +123,7 @@ Package:
             reference: <evidence file>
             outputResults: <output of script if automated>
             effectiveDate: <date of evidence>
+
+
+### Below is a sample YAML file:
+
