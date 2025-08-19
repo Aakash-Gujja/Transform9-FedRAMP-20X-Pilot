@@ -6,7 +6,9 @@
 
 Transform9 delivers AI-powered voice agents that handle calls from start to finish—eliminating hold times, automating routine tasks, and improving responsiveness. We serve healthcare and other industries where timely, accurate communication is critical, managing scheduling, reminders, information requests, and more. By automating these interactions, organizations free staff to focus on higher-value work while improving the customer or patient experience.
 -> Conversational AI – Automates scheduling, reminders, information requests, and other call workflows.
+
 -> Flexible & Scalable – Serves healthcare and any sector with high-volume communications, adapting to unique operational needs.
+
 -> Seamless Integration – Connects with EHRs, CRMs, and other systems to keep information accurate and up to date.
 
 
