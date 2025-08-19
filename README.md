@@ -166,6 +166,10 @@ Either on-demand or per an automated schedule. a new package will be generated w
 It is anticipated that Paramify Cloud will allow for a shareable link that shows the KSI dashboard for Transform9. The view will look similar to following images.
 
 
+![Issue](Images/Issue.png)
+
+![Tracking](Images/Tracking.png)
+
 
 ## Step 8 - CSP Rationale and Summary
 
