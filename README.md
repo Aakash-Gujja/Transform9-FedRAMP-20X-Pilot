@@ -65,7 +65,7 @@ Meet with 3PAO and have them review and validate evidence in Paramify Cloud. 3PA
 
 ![Evidence2](Images/VEvidence1.png)
 
-Transform9 is working with ControlCase as 3PAO for this FedRAMP 20X Assessment. The assesment report from ControlCase is available here:  [ControlCase Assessment]((Images/ControlCase.pdf))
+Transform9 is working with ControlCase as 3PAO for this FedRAMP 20X Assessment. The assesment report from ControlCase is available here:  [ControlCase Assessment](Images/ControlCase.pdf)
 
 ## Step 4 - Automated Machine Readable Package
 
