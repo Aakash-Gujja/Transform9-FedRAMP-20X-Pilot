@@ -136,9 +136,58 @@ Package:
 
 ### Below is the sample YAML file
 
+```yaml
+
+Package:
+  CSPName: Amazon
+  CSO: "Transform9 "
+  impact: Low
+  summaryOfCSO: ""
+  Assessments:
+    - Assessment:
+        digitalSignature: ""
+        assessorOrg: ControlCase
+        date: 8/19/2025
+        leadAssessor: Erik Winkler
+        recommendation: ""
+        remarks: ""
+        KSIs:
+          - KSI:
+              name: Cloud Native Architecture
+              shortName: CNA
+              Validations:
+                - validation:
+                    shortName: CNA-01
+                    description: Configure ALL information resources to limit inbound and outbound
+                      traffic
+                    implementation:
+                      - >+
+                        Title: Policy Enforcement Points: Amazon Firewall
+                        Manager
+
+                        Content: Transform9  leverages @AWS Security Groups, a
+                        FedRAMP 20x-compliant component, for network access
+                        control.
 
 
-Transform9's complete machine-readable file is available publicly in this repository at
+                        End User Responsibility: The @DevOps Admin employs @AWS
+                        Security Groups for boundary protection in Transform9 ,
+                        limiting use to allowed ports, protocols, and services.
+                        Traffic to Transform9  is directed through AWS, featuring two access points:
+
+                        the Transform9  web interface, requiring valid
+                        credentials,
+
+                        Transform9 admin access from authorized devices, secured
+                        with two-factor authentication via @IAM and @Google
+                        Authenticator.
+
+                    implementationStatus: Implemented
+
+```
+
+
+Transform9's complete machine-readable file is available publicly in this repository at [text](machine-readable-package/transform9_controlcase_20x_machine_readable.yaml)
 
 
 ## Step 5 - 3PAO Review
