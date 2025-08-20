@@ -30,7 +30,7 @@ Generate and publish our machine-readable package using Paramify Cloud.
 ### 5. 3PAO Review
 3PAO reviews the package and adds attestation.
 
-### 6. Continuous Reporting Indication
+### 6. Continuous Reporting 
 Either on-demand or per an automated schedule, a new package will be generated with the most current evidence.
 
 ### 7. Prototype for Continuous Reporting
