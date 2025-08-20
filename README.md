@@ -16,7 +16,7 @@ Transform9 delivers AI-powered voice agents that handle calls from start to fini
 ## CSP Approach
 Our approach can be summarized with the following steps:
 
-### 1. Lightweight Documentation
+### 1. Lightweigth Documentation
 Document the implementation of KSIs using Paramify Cloud with the FedRAMP 20x validations set.
 ### 2. Key Security Indicators and Validations
 Gather and upload evidence into Paramify Cloud for each KSI validation, using automation where possible.
