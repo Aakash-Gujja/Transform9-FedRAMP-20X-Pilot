@@ -6,9 +6,9 @@ Package:
   Assessments:
     - Assessment:
         digitalSignature: ""
-        assessorOrg: ControlCase
+        assessorOrg: ""
         date: 8/19/2025
-        leadAssessor: Erik Winkler
+        leadAssessor: Erik Winker
         recommendation: ""
         remarks: ""
         KSIs:
@@ -33,7 +33,8 @@ Package:
                         End User Responsibility: The @DevOps Admin employs @AWS
                         Security Groups for boundary protection in Transform9 ,
                         limiting use to allowed ports, protocols, and services.
-                        Traffic to Transform9  is directed through AWS, featuring two access points:
+                        Traffic to Transform9  is directed through @Custom Load
+                        Balancer, featuring two access points:
 
                         the Transform9  web interface, requiring valid
                         credentials,
@@ -177,9 +178,13 @@ Package:
                     assessmentSteps:
                       - assessmentStep:
                           method: Examine
-                          status: PASS
-                          result: The output of guard_duty.sh was reviewed to confirm configuration is in
-                            place to protect AWS services.
+                          status: FAIL
+                          result: The output of guard_duty.sh was reviewed to confirm configuration
+                            supporting detection is in place to protect AWS
+                            services. The evidence provided helps to detect
+                            attacks, but doesn’t do anything to contain them.
+                            AWS Security Hub and AWS Guard Duty are detection
+                            tools only.
                     assessedBy: ""
                     assessedOn: ""
                     Evidences:
@@ -707,9 +712,14 @@ Package:
                     assessmentSteps:
                       - assessmentStep:
                           method: Examine
-                          status: PASS
+                          status: FAIL
                           result: The evidence of the configuration of multiple zones within AWS East was
-                            confirmed by reviewing the AWS subnet dashboard.
+                            confirmed by reviewing the AWS subnet dashboard. The
+                            evidence provided shows that networking capacity is
+                            available in multiple availability zones. However,
+                            there is no evidence to show any resources or
+                            services that are deployed in or spanning multiple
+                            availability zones.
                     assessedBy: ""
                     assessedOn: ""
                     Evidences:
@@ -959,13 +969,14 @@ Package:
                     assessmentSteps:
                       - assessmentStep:
                           method: Examine
-                          status: PASS
+                          status: FAIL
                           result: The output of security_groups.sh was reviewed to confirm security group
                             hardening was in place. The configurations for S3,
                             EBS RDS and SSL encryption were also reviewed using
                             output from the supplied .sh scripts. The provided
                             asset checks show how confirmation of hardening is
-                            validated.
+                            validated. Details for system hardening is not
+                            provided.
                     assessedBy: ""
                     assessedOn: ""
                     Evidences:
@@ -2289,12 +2300,15 @@ Package:
                     assessmentSteps:
                       - assessmentStep:
                           method: Examine
-                          status: PASS
+                          status: FAIL
                           result: The output of the iam_roles.sh script was reviewed to confirm a secure
                             authorization model is in use. In addtion, access is
                             granted to all users based on lease privilege with
                             access limited to that which they need to perform
                             their job as shown in access dashboard screenshot.
+                            However, there was no evidence to show what
+                            permissions are assigned to each role. Also, no
+                            evidence to show what IAM group goes with each role.
                     assessedBy: ""
                     assessedOn: ""
                     Evidences:
@@ -2613,7 +2627,7 @@ Package:
                     assessmentSteps:
                       - assessmentStep:
                           method: Examine
-                          status: PASS
+                          status: FAIL
                           result: The output of guard_duty.sh showing the configuration of guard duty and
                             a sample alert from guard duty were reviewed to
                             confirm the control is in place.
@@ -2856,11 +2870,14 @@ Package:
                     assessmentSteps:
                       - assessmentStep:
                           method: Examine
-                          status: PASS
+                          status: FAIL
                           result: It was noted that GuardDuty is used to collect and monitor all audit
                             logs. Within GuardDuty each incident recorded from
                             the audit logs captured is assessed and tracked to
                             closure as seen in the GuardDuty alert screenshots.
+                            Evidence for application logs is not addressed.
+                            Evidence they are captured in CloudWatch or
+                            CloudTrail was not provided.
                     assessedBy: ""
                     assessedOn: ""
                     Evidences:
@@ -3435,10 +3452,11 @@ Package:
                     assessmentSteps:
                       - assessmentStep:
                           method: Examine
-                          status: PASS
+                          status: FAIL
                           result: The screenshot evidence and out put of the aws_config_monitoring.sh
                             script were reviewed and confirmed to show event
-                            logging is configured correctly to meet the KSI.
+                            logging is configured correctly to meet the KSI for
+                            infrastructure, but not the application.
                     assessedBy: ""
                     assessedOn: ""
                     Evidences:
@@ -3528,12 +3546,13 @@ Package:
                     assessmentSteps:
                       - assessmentStep:
                           method: Examine
-                          status: PASS
+                          status: FAIL
                           result: The development environment was reviewed and a screenshot of the
                             baseline config was reviewed. Deployment occurs by a
                             push the entire service to production from the dev
                             environment. The push can only be accomplished by 2
-                            authorized personnel.
+                            authorized personnel. The evidence shown addresses
+                            application, but not infrastructure.
                     assessedBy: ""
                     assessedOn: ""
                     Evidences:
@@ -3612,10 +3631,14 @@ Package:
                     assessmentSteps:
                       - assessmentStep:
                           method: Examine
-                          status: PASS
+                          status: FAIL
                           result: Automated testing is implemented using LLM agents in Cekura. Flaw
                             remediation prior to deployment is tracked in Jira
-                            ticketing system as was shown in the evidence.
+                            ticketing system as was shown in the evidence. The
+                            evidence provided doesn’t show proof of automated
+                            testing. Evidence from the automated testing tools
+                            was not provided. Also, it should consider changes
+                            to application and infrastructure.
                     assessedBy: ""
                     assessedOn: ""
                     Evidences:
@@ -4397,12 +4420,13 @@ Package:
                     assessmentSteps:
                       - assessmentStep:
                           method: Examine
-                          status: PASS
+                          status: FAIL
                           result: The GuardDuty, RDS, KMS, S3, EBS and SSL configuration settings were
                             reviewed using the output of the .sh scripts. The
                             output of the scripts and the scripts themselves
                             were reviewed to confirm they are configured
-                            securely.
+                            securely. Missing AWS Config evidence to show all
+                            services are configured correctly.
                     assessedBy: ""
                     assessedOn: ""
                     Evidences:
@@ -4795,7 +4819,7 @@ Package:
                       least roles with privileged access
                     implementation:
                       - >
-                        Title: Anti-counterfeit Training
+                        Title: Security Awaraness Training
 
                         Content: Within 10 days of assignment, Transform9 staff
                         that have roles with access to Transform9  receive
@@ -4807,10 +4831,10 @@ Package:
                         Title: Role Based Security Training
 
                         Content: Transform9 documents security procedures and
-                        checklists in @S3 for engineering roles. Managers review
-                        documentation on specific role responsibilities before
-                        access is granted to Transform9 , in addition to basic
-                        security awareness training.
+                        checklists in sprinto for engineering roles. Managers
+                        review documentation on specific role responsibilities
+                        before access is granted to Transform9 , in addition to
+                        basic security awareness training.
                     implementationStatus: Implemented
                     digitalSignature: ""
                     assessmentStatus: "False"
