@@ -226,9 +226,9 @@ A summary of and rationale for the approach used to generate the machine-readabl
 
 ## Step 9 - CSP Submission
 
-Similar to the Continuous Reporting capability, the package is available by a viewable link in Paramify or through the machine-readable package file with a friendly HTML viewer.
+Similar to the Continuous Reporting capability, the package is available by a viewable link in Paramify or through the machine-readable package file.
 
-Transform9's complete machine-readable file is available publicly in this GitHub repository at
+Transform9's complete machine-readable file is available publicly in this GitHub repository at [machine-readable-package/transform9_controlcase_20x_machine_readable.yaml](machine-readable-package/transform9_controlcase_20x_machine_readable.yaml)
 
 
 
