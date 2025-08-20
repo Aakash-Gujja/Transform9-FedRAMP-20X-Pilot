@@ -182,7 +182,7 @@ Package:
                         with two-factor authentication via @IAM and @Google
                         Authenticator.
 
-                    implementationStatus: Implemente
+                    implementationStatus: Implemented
 
 ```
 
