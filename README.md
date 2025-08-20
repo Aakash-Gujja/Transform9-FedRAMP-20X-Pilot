@@ -16,7 +16,7 @@ Transform9 delivers AI-powered voice agents that handle calls from start to fini
 ## CSP Approach
 Our approach can be summarized with the following steps:
 
-### 1. Lightwight Documentation
+### 1. Lightweight Documentation
 Document the implementation of KSIs using Paramify Cloud with the FedRAMP 20x validations set.
 ### 2. Key Security Indicators and Validations
 Gather and upload evidence into Paramify Cloud for each KSI validation, using automation where possible.
@@ -53,7 +53,7 @@ Document the implementation of our KSIs using Paramify Cloud with the FedRAMP 20
 
 ## Step 2 - Key Security Indicators and Validations
 
-Gather and upload evidence into Pramify Cloud for each KSI validation, using automation where possible. Instructions and commands for each evidence object are included to provide context to the evidence process and resutls.
+Gather and upload evidence into Paramify Cloud for each KSI validation, using automation where possible. Instructions and commands for each evidence object are included to provide context to the evidence process and results.
 
 <img width="2530" height="895" alt="Screenshot 2025-08-18 090806" src="https://github.com/user-attachments/assets/4767be69-6025-496d-9ba8-310a6d6c1cdc" />
 
@@ -67,7 +67,7 @@ Meet with 3PAO and have them review and validate evidence in Paramify Cloud. 3PA
 
 ![Evidence2](Images/VEvidence1.png)
 
-Transform9 is working with ControlCase as 3PAO for this FedRAMP 20X Assessment. The assesment report from ControlCase is available here:  [ControlCase Assessment](Images/ControlCase.pdf)
+Transform9 is working with ControlCase as 3PAO for this FedRAMP 20X Assessment. The assessment report from ControlCase is available here:  [ControlCase Assessment](Images/ControlCase.pdf)
 
 ## Step 4 - Automated Machine Readable Package
 
@@ -75,7 +75,7 @@ Publish our machine-readable format package using Paramify Cloud’s DocRobot ca
 
 # Assessment File Structure
 
-The machin-redable assessment file is a YAML file with the following structure  (see [Assessment Schema](machine-readable-package/Schema.yaml))
+The machine-redable assessment file is a YAML file with the following structure  (see [Assessment Schema](machine-readable-package/Schema.yaml))
 
 ```yaml
 
@@ -157,11 +157,11 @@ Transform9's complete machine-readable file is available publicly in this reposi
 
 ```
 
-## Step 6 - Continous Reporting Indication
+## Step 6 - Continuous Reporting 
 
 Either on-demand or per an automated schedule. a new package will be generated with most current evidence using paramify's DocRobot capability.
 
-## Step 7 - Prototype for Continuos Reporting
+## Step 7 - Prototype for Continuous Reporting
 
 It is anticipated that Paramify Cloud will allow for a shareable link that shows the KSI dashboard for Transform9. The view will look similar to following images.
 
