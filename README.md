@@ -16,7 +16,7 @@ Transform9 delivers AI-powered voice agents that handle calls from start to fini
 ## CSP Approach
 Our approach can be summarized with the following steps:
 
-### 1. Lightweigth Documentation
+### 1. Lightweight Documentation
 Document the implementation of KSIs using Paramify Cloud with the FedRAMP 20x validations set.
 ### 2. Key Security Indicators and Validations
 Gather and upload evidence into Paramify Cloud for each KSI validation, using automation where possible.
@@ -44,7 +44,7 @@ Similar to the Continuous Reporting capability, the package will be available ei
 
 # Step-by-Step Details
 
-## Step 1 - Lightweigth Documentation
+## Step 1 - Lightweight Documentation
 
 Document the implementation of our KSIs using Paramify Cloud with the FedRAMP 20x validations set.
 
@@ -75,7 +75,7 @@ Publish our machine-readable format package using Paramify Cloud’s DocRobot ca
 
 # Assessment File Structure
 
-The machine-redable assessment file is a YAML file with the following structure  (see [Assessment Schema](machine-readable-package/Schema.yaml))
+The machine-readable assessment file is a YAML file with the following structure  (see [Assessment Schema](machine-readable-package/Schema.yaml))
 
 ```yaml
 
@@ -171,11 +171,11 @@ Package:
 
 
                         End User Responsibility: The @DevOps Admin employs @AWS
-                        Security Groups for boundary protection in Transform9 ,
+                        Security Groups for boundary protection in Transform9,
                         limiting use to allowed ports, protocols, and services.
                         Traffic to Transform9  is directed through AWS, featuring two access points:
 
-                        the Transform9  web interface, requiring valid
+                        The Transform9  web interface, requiring a valid
                         credentials,
 
                         Transform9 admin access from authorized devices, secured
@@ -192,7 +192,7 @@ Transform9's complete machine-readable file is available publicly in this repo a
 
 ## Step 5 - 3PAO Review
 
-3PAO reviews package and adds attestation. This is included at the Assessment level in the machine-readable-package
+3PAO reviews the package and adds attestation. This is included at the Assessment level in the machine-readable package
 
 ```yaml
 
@@ -208,7 +208,7 @@ Transform9's complete machine-readable file is available publicly in this repo a
 
 ## Step 6 - Continuous Reporting 
 
-Either on-demand or per an automated schedule. a new package will be generated with most current evidence using paramify's DocRobot capability.
+Either on-demand or per an automated schedule. a new package will be generated with most current evidence using Paramify's DocRobot capability.
 
 ## Step 7 - Prototype for Continuous Reporting
 
