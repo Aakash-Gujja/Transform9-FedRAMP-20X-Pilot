@@ -187,7 +187,7 @@ Package:
 ```
 
 
-Transform9's complete machine-readable file is available publicly in this repository at [](machine-readable-package/transform9_controlcase_20x_machine_readable.yaml)
+Transform9's complete machine-readable file is available publicly in this repository at (machine-readable-package/transform9_controlcase_20x_machine_readable.yaml)
 
 
 ## Step 5 - 3PAO Review
